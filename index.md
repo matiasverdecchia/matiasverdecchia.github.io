@@ -1,27 +1,100 @@
----
-title: Matías Verdecchia
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Matías Verdecchia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-# Matías Verdecchia
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-Linguistics · Syntax · Semantics  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
-Universidad de Buenos Aires / CONICET  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-📧 matias.verdecchia@gmail.com  
-🔗 [Google Scholar](https://scholar.google.com/)  
-🔗 [ORCID](https://orcid.org/)  
+<body>
 
----
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white border-bottom">
+  <div class="container">
+    <a class="navbar-brand" href="#">Matías Verdecchia</a>
+    <div>
+      <ul class="navbar-nav flex-row gap-3">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+        <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-## About
+<section class="hero">
+  <div class="container">
+    <h1>Matías Verdecchia</h1>
+    <p class="subtitle">Linguistics · Syntax · Theory</p>
+  </div>
+</section>
 
-I am a linguist working on syntax and semantics, with a focus on the structure of clausal dependencies and interpretation.
+<section id="about" class="section">
+  <div class="container">
+    <h2>About</h2>
+    <p>
+      I am a linguist working on syntactic theory, movement dependencies,
+      and the syntax–semantics interface. I am currently based in Argentina.
+    </p>
+  </div>
+</section>
 
----
+<section id="research" class="section bg-light">
+  <div class="container">
+    <h2>Research</h2>
+    <ul>
+      <li>Movement and intervention effects</li>
+      <li>Clausal doubling</li>
+      <li>Feature-based locality</li>
+    </ul>
+  </div>
+</section>
 
-## Navigation
+<section id="teaching" class="section">
+  <div class="container">
+    <h2>Teaching</h2>
+    <ul>
+      <li>Linguistics I (UBA)</li>
+      <li>Syntax seminars</li>
+    </ul>
+  </div>
+</section>
 
-- [Publications](publications.md)
-- [Teaching](teaching.md)
-- [CV](cv.md)
+<section id="publications" class="section bg-light">
+  <div class="container">
+    <h2>Publications</h2>
+    <p>
+      Muñoz Pérez, C. & Verdecchia, M. (2025). <em>Clausal doubling produces phantom islands</em>.
+      <strong>The Linguistic Review</strong>.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>
+      Email: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a><br>
+      GitHub: <a href="https://github.com/tuusuario">github.com/tuusuario</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © 2026 Matías Verdecchia
+  </div>
+</footer>
+
+</body>
+</html>
